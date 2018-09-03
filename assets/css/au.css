@@ -1,4 +1,8 @@
+body, button, input, select, textarea {
+}
+
 section.root {
+  font-family: 'Open Sans', sans-serif;
   padding: 1.5rem;
 }
 

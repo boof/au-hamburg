@@ -1,0 +1,21 @@
+section.root {
+  padding: 1.5rem;
+}
+
+.tile.header {
+  background-color: #FFD062;
+}
+
+.directions {
+  overlow: hidden;
+  padding-bottom: 82%;
+  position: relative;
+  height: 0;
+}
+.directions iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

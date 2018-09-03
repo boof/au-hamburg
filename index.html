@@ -1,0 +1,76 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+
+<section class="root section">
+  <div class="tile is-ancestor is-vertical">
+    <div class="tile header">
+      <div class="tile is-parent is-7">
+        <article class="tile is-child">
+            <h1>
+              <a rel="author" href="{{ "/" | relative_url }}">
+                <figure class="image is-4by3">
+                  <img src="/assets/img/au.png" alt="{{ site.title | escape }}">
+                </figure>
+              </a>
+            </h1>
+            <div class="content has-text-centered">
+              <p><strong>Hilfen für junge Schwangere &amp; junge Mütter</strong></p>
+            </div>
+          </article>
+      </div>
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child">
+          <div class="content">
+            <strong>Wenn Du</strong> schwanger bist oder ein Kind hast
+            <p>
+              zwischen 16 und 23 Jahre alt bist und<br>
+              aus Barmbek-Süd oder angrenzenden Stadtteilen kommst
+            </p>
+          </div>
+          <div class="content">
+            <strong>Dann bieten wir</strong> bis 1 Jahr nach der Schwangerschaft
+            <p>
+              Unterstützung bei der Wohnungssuche,<br>
+              ALG II- und allgemeine Sozialberatung,<br>
+              Freizeitangebote wie Frühstück sowie<br>
+              Begleitung zu Behörden, Ärztinnen und Ärzten
+            </p>
+          </div>
+          <div class="content">
+            <strong>Unser Angebot</strong> ist anonym, freiwillig & kostenlos.
+            <p>Zu unserem Team gehören eine Sozialpädagogin und eine Familienhebamme.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="tile">
+      <div class="tile is-parent is-8">
+        <article class="tile is-child">
+          <div class="content">
+            {%- include hours.html -%}
+          </div>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child">
+          <div class="card">
+            <div class="card-image">
+              <div class="content directions">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1RhmK_ew8JcRVmQyPGuoZcSt7_V1-OxeM" width="640" height="480"></iframe>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                {%- include address.html -%}
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>

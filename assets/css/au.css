@@ -1,15 +1,36 @@
 body {
-  max-width: 1024px;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
-section.root {
-  font-family: 'Open Sans', sans-serif;
+address {
+  font-style: normal;
+}
+
+dt {
+  clear: left;
+  float: left;
+  width: 5em;
+}
+dt:after {
+  content: ":";
+}
+
+dd {
+  text-align: left;
+}
+
+.root {
   padding: 1.5rem;
 }
 
 .tile.header {
   background-color: #FFD062;
+  padding: 1rem;
+}
+.tile.intro {
+  padding: 1rem;
 }
 
 .directions {

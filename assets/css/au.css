@@ -1,4 +1,6 @@
-body, button, input, select, textarea {
+body {
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 section.root {

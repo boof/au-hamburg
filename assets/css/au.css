@@ -21,13 +21,17 @@ dd {
   text-align: left;
 }
 
-.root {
+.root, .footer {
   padding: 1.5rem;
 }
 
 .tile.header {
   background-color: #FFD062;
   padding: 1rem;
+}
+.tile.header .content {
+  margin: 1em;
+  font-size: x-large;
 }
 .tile.intro {
   padding: 1rem;

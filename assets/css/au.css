@@ -25,6 +25,14 @@ dd {
   padding: 1.5rem;
 }
 
+footer.footer {
+  font-size: 0.9em;
+}
+
+footer.footer .content > * + *::before {
+  content: " · ";
+}
+
 .tile.header {
   background-color: #FFD062;
   padding: 1rem;

@@ -1,21 +1,13 @@
 <footer class="footer">
   <div class="container">
-    <div class="columns">
-      <div class="column">
-        <div class="content">
-          <a href="imprint.html">Impressum</a><br>
-          <a href="privacy.html">Datenschutz</a>
-        </div>
-      </div>
-      <div class="column">
-        <div class="content">
-          <p>Weitere Links:</p>
-          <a href="http://www.kifaz.de">Kinder- und Familienzentrum im Barmbek°Basch</a><br>
-          <a href="http://www.hude-hamburg.de">HUDE</a><br>
-          <a href="http://www.barmbek-basch.info">Barmbek°Basch</a><br>
-          <a href="https://www.hamburg.de/hamburg-nord/familie-senioren/2391872/allgemeiner-sozialer-dienst/">Allgemeiner Sozialer Dienst (ASD)</a><br>
-        </div>
-      </div>
+    <div class="content has-text-centered">
+      {% for item in site.data.navigation %}
+      {% if page.url != item.url %}
+      <a href="{{ item.url }}">{{ item.title }}</a>
+      {% else %}
+      <span>{{ item.title }}</span>
+      {% endif %}
+      {% endfor %}
     </div>
   </div>
   <data class="u-url" href="{{ "/" | relative_url }}"></data>

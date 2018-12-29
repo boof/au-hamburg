@@ -8,17 +8,25 @@ address {
   font-style: normal;
 }
 
-dt {
+#startpage dt {
   clear: left;
   float: left;
   width: 5em;
 }
-dt:after {
+#startpage dt:after {
   content: ":";
 }
 
-dd {
+#startpage dd {
   text-align: left;
+}
+
+#imprint dt {
+  font-weight: bold;
+  margin-top: 1em;
+}
+#imprint dd {
+  margin-left: 0;
 }
 
 .root, .footer {

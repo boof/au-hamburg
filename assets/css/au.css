@@ -1,11 +1,15 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  /* max-width: 1280px; */
   margin: 0 auto;
 }
 
 address {
   font-style: normal;
+}
+
+.table th, .content h1, .content h2, .content h3, .content strong, .semibold {
+  font-weight: normal;
+  font-family: 'Open Sans Semibold';
 }
 
 #startpage dt {
@@ -22,7 +26,7 @@ address {
 }
 
 #imprint dt {
-  font-weight: bold;
+  font-family: 'Open Sans Semibold';
   margin-top: 1em;
 }
 #imprint dd {

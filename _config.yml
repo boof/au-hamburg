@@ -8,6 +8,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+destination: docs
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -26,7 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 # theme: minima
 plugins:
-  # - jekyll-feed
+  - jekyll-seo-tag
 
 lang: de
 host: 0.0.0.0
@@ -35,7 +37,10 @@ port: 3000
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+  - Procfile
+  - bin
+  - LICENSE
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
